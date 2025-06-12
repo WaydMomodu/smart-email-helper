@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import type { EmailTone } from '@/utils/emailTemplates';
 
 export async function POST(request: Request) {
   // Verify API key is present
